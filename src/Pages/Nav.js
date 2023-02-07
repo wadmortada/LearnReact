@@ -20,7 +20,7 @@ function Nav() {
                 <Link to="/Contact" style={linkStyle}><h1>Contact</h1></Link>
             </nav>
             <Routes>
-                <Route index element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path='about' element={<About />} />
                 <Route path='contact' element={<Contact />} />
             </Routes>

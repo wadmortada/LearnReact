@@ -1,11 +1,12 @@
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Nav from './Pages/Nav'
 
 function App() {
   return (
-    <div>
+    <Router>
       <Nav />    
-    </div>
+    </Router>
     
   )
 }
